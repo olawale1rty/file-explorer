@@ -5,7 +5,7 @@
   "author": "Yurii Semeniuk",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build && cp _redirects dist/_redirects"
   },
   "main": "src/index.js",
   "dependencies": {
